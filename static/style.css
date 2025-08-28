@@ -1,0 +1,58 @@
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/roboto-v48-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/roboto-v48-latin-700.woff2') format('woff2');
+}
+
+body {
+	margin: 40px auto;
+	max-width: 800px;
+	line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14pt;
+	color: #222;
+	padding: 0 10px;
+}
+
+.pride-flag {
+	display: inline-block;
+	height: 0.8em;
+	width: 1.3em;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("/assets/flag-progress-pride.png");
+}
+
+h1, h2, h3 {
+	margin: 25px 0 -5px;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #22272e;
+		color: #d9e8f7;
+	}
+	a {
+		color: #539bf5;
+	}
+}
+
+blockquote {
+  font-size: 1.1rem;
+  border-left: 4px solid #4f46e5;
+  padding: 1rem 1.5rem;
+
+  position: relative;
+}
